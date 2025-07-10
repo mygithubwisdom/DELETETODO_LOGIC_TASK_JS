@@ -6,6 +6,4 @@ const router = express.Router();
 router.get('/', getToDo);
 router.delete('/:id', deleteToDo);
 
-
 export default router;
-
